@@ -1,1 +1,35 @@
+include ["standard"];
+include "C:\Users\PC\Desktop\Language\other.thrm";
 
+output "";
+output "##############################";
+output "# Chatbot Program in Thermal #";
+output "#            v0.1            #";
+output "##############################";
+output "";
+
+string answer = "";
+pause;
+
+output "Hey, im the Thermal Chatbot. How are you?";
+input answer;
+output answer;
+output " ";
+pause;
+
+output "Ok, And what do you like to do?";
+input answer;
+output answer;
+output " ";
+pause;
+
+output "Cool! What is your favourite food?";
+input answer;
+output answer;
+output " ";
+pause;
+
+output "Nice. I love that too.";
+output " ";
+output "End of chatbot.";
+pause;
